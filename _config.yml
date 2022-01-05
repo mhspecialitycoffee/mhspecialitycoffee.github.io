@@ -1,0 +1,87 @@
+# Site settings
+title: Malcolm Haslam
+email: malcolmhaslam@gmail.com
+url: https://example.github.io
+description: "Hi, I'm Malcolm. I'm a web developer."
+keywords: "Web, Developer, Javascript, Java, fullstack"
+hello_msg: "Hi, I'm Malcolm."
+skills: " I'm a Web Developer."
+meta_author: HASLAM Malcolm
+contact_msg: "Have any questions about anything..."
+about_left: "
+            Calling yourself a FullStack developer is like calling yourself a MD. Ok, you have a general view of medicine and I’m sure you can check my pulse, but are you a surgeon or a dermatologist? What is your speciality?
+            <br />
+            <br />
+            If you read a bit about my professional career, I could tell you that i’m a back-end java developer because I’ve been working on java for the last 10 years. 
+            I would probably be lying because out of those 10 years I've spent 75 percent of the time building a Javascript SDK, translating specs, working on CSS, Mongodb and MySql, building a Markdown documentation engine and coordinating QA.                            
+            "
+about_right: "
+              So... Why do I call myself a FullStack developer?
+              <br />
+              <br />
+              I think most people with experience that call themselves FullStack developers are like me. 
+              They are more slanted to one side or the other but they don’t want to be pent-up. 
+              <br />
+              <br />
+              The truth is that I'm a product-centered software developer who obtains fulfilment form building thing on my computer. 
+              <br />
+              <br />
+              So the best job title I can find is FullStack developer. Basically, I want to build a great product I can be proud of in a great company to work in.
+            "
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: Malcolm
+
+# Color settings (hex-codes without the leading hash-tag)4ab19a
+color:
+  primary: e0ebe8 #18bc9c #80B3FF
+  primary-rgb: "128,179,255" #"24,288,156"
+  secondary: 4ab19a #2c3e50 #FD6E8A
+  secondary-dark: dc612c #233140 #A2122F
+  text: 194e6d
+  off-white: fdfdfc
+
+# Footer settings
+footer:
+  copyright: Dr. Henry Jekyll
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/malcolm-haslam-4017a82a/
+  - title: github
+    url: https://github.com/mhaslam
+  - title: twitter
+    url: https://twitter.com/MalcolmHaslam
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Crolles, France
+
+# Credits content
+credits: 'Thank you for all the inpiration (and openSource code) I used on this page. It is now a clean site with a simple minimalistic UX.  
+I till have a lot of ideas to implement so keep refreshing! 
+<br />
+Traduction française à venir.
+'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
