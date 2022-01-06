@@ -1,11 +1,11 @@
 # Site settings
-title: Malcolm Haslam
-email: malcolmhaslam@gmail.com
+title: RUDOS
+email: caferudos@gmail.com
 url: https://example.github.io
 description: "Hi, I'm Malcolm. I'm a web developer."
 keywords: "Web, Developer, Javascript, Java, fullstack"
-hello_msg: "Hi, I'm Malcolm."
-skills: " I'm a Web Developer."
+hello_msg: "Café, thé et chocolat"
+skills: "locales traçables equitables"
 meta_author: HASLAM Malcolm
 contact_msg: "Have any questions about anything..."
 about_left: "
