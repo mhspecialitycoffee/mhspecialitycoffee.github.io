@@ -69,6 +69,13 @@ jobs:
       - run:
           name: "Deploy to S3"
           command: aws s3 sync _site "s3://$AWS_BUCKET_NAME" --delete
+	- run:
+	    name: "Purge CloudFlare cache"
+	    command: >
+	      curl -X POST "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE}/purge_cache" \
+		-H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+		-H "Content-Type: application/json" \
+		--data '{"purge_everything":true}'}
 
 workflows:
   version: 2
