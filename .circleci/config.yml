@@ -1,0 +1,84 @@
+##
+# Define commands to be used more than once here:
+references:
+  container_config: &container_config
+    working_directory: ~/www/
+    docker:
+      - image: circleci/ruby:2.6.6-node-browsers
+
+##
+# CircleCI config starts here...
+version: 2.1
+
+orbs:
+  # Install the AWS CLI orb...
+  aws-cli: circleci/aws-cli@1.2.1
+  # Install this Bundler orb...
+  bundle: toshimaru/bundle-install@0.3.1
+
+##
+# Here we define two jobs. One to build the website files, and another one to deploy to
+# our AWS S3 bucket.
+jobs:
+  build:
+    <<: *container_config
+    steps:
+      # Pull code from GitHub
+      - checkout
+      # This might be required to make sure we have the correct version of Bundler
+      # installed.
+      - run:
+          name: "Bundle fix"
+          command: gem update bundler
+      # Install missing gems and cache them for future builds
+      - bundle/bundle-install
+      # Cache the repo code for the deploy job.
+      - save_cache:
+          paths: .
+          key: repo-{{ .Branch }}-{{ .Revision }}
+
+      # Build the jekyll site into the _site directory.
+      - run:
+          name: "Build site"
+          command: bundle exec jekyll build --trace --lsi --strict_front_matter --profile
+      # Save the built Jekyll site to the cache for the deploy job
+      - save_cache:
+          paths:
+            - ./_site
+          key: jekyll-site-{{ .Branch }}-{{ .Revision }}
+
+  deploy:
+    <<: *container_config
+    executor: aws-cli/default
+    steps:
+      # Load the repo code from cache
+      - restore_cache:
+          keys:
+            - repo-{{ .Branch }}-{{ .Revision }}
+            - repo-{{ .Branch }}
+            - repo-
+
+      # Load the Jekyll site from cache
+      - restore_cache:
+          keys:
+            - jekyll-site-{{ .Branch }}-{{ .Revision }}
+            - jekyll-site-
+      # Install AWS CLI tools
+      - aws-cli/install
+      # Deploy our code to our AWS bucket
+      - run:
+          name: "Deploy to S3"
+          command: aws s3 sync _site "s3://$AWS_BUCKET_NAME" --delete
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
