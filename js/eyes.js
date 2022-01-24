@@ -8,6 +8,6 @@ var height = window.innerHeight;
 var y = e.pageY;//event.clientY;
 var b = y / height;
 b= b *100;
-eye[0].style.cssText = "left: " + a + "%; top: " + b + "%;" + "transform:translate(-"+a+"%,-"+b+"%)";
-eye[1].style.cssText = "left: " + a + "%; top: " + b + "%;" + "transform:translate(-"+a+"%,-"+b+"%)"; 
+eye[0].style = "left: " + a + "%; top: " + b + "%;" + "transform:translate(-"+a+"%,-"+b+"%)";
+eye[1].style = "left: " + a + "%; top: " + b + "%;" + "transform:translate(-"+a+"%,-"+b+"%)"; 
 }

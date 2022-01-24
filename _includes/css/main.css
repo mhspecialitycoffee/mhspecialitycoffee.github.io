@@ -722,8 +722,17 @@ div.main-avatar{
         background-size: contain;
         background-position: center;
         background-image: url("img/eyeball.svg");
+        left: 50%; 
+        top: 50%; 
+        transform:translate(-50%,-50%); 
             
     }
+
+  /*
+  filter: invert(7%) sepia(7%) saturate(237%) hue-rotate(21deg) brightness(96%) contrast(90%); 1c1c1b
+  filter: invert(45%) sepia(76%) saturate(2312%) hue-rotate(348deg) brightness(93%) contrast(83%); dc612c
+
+  */  
 /*END EYES*/
 }
 
