@@ -61,12 +61,22 @@ hr.star-primary:after {
 
 div.homeStarLine {
     display: block;
-    margin: 0 auto 20px;
+    margin-bottom:20px;
     height: 30px;
-    width: 250px;
-    background-image: url(img/starLine.svg);
-    background-repeat: no-repeat;
+    background-image: url(img/starLine50.svg);
+    background-repeat: no-repeat; 
+    background-position: center; 
 
+}
+@media(min-width:768px) {
+        div.homeStarLine {
+        display: block;
+        margin: 0 auto 20px;
+        height: 30px;
+        width: 250px;
+        background-image: url(img/starLine.svg);
+        background-repeat: no-repeat; 
+    }
     
 }
 
