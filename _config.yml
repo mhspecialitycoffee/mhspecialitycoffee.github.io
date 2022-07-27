@@ -2,10 +2,11 @@
 title: RUDOS
 email: caferudos@gmail.com
 url: https://example.github.io
-description: "Hi, I'm Malcolm. I'm a web developer."
-keywords: "Web, Developer, Javascript, Java, fullstack"
-hello_msg: "Café, thé et chocolat"
-skills: "locales traçables equitables"
+description: "Café d'exeption Meylan"
+keywords: "Café"
+hello_msg: "Café, thé et gourmandises"
+quote: " \"Si le café est bon, tout est bon.\""
+quoteAuth: "FRANCIS BEATTY THURBER"
 meta_author: HASLAM Malcolm
 contact_msg: "Have any questions about anything..."
 about_left: "

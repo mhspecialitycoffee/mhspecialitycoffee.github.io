@@ -646,6 +646,43 @@ hr.star-light,  hr.star-primary{
     margin: 0 auto;
     letter-spacing: .15em;
 }
+.quoteAuth {
+    width: fit-content;
+    margin: auto;
+    
+}
+.quoteAuth h1 {
+
+    font-size: 1em;
+    font-weight: 300;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0em;
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 3s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes fadein { /* Firefox */
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes fadein { /* Opera */
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
 .typewriter {
     width: fit-content;
     margin: auto;
@@ -657,9 +694,9 @@ hr.star-light,  hr.star-primary{
     font-weight: 300;
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    letter-spacing: 0em; /* Adjust as needed */
     animation: 
-      typing 3.5s steps(40, end),
+      typing 2s steps(40, end),
       blink-caret .75s step-end infinite;
   }
   
