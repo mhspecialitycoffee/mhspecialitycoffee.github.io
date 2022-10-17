@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 5
+date: 2022-10-17
+img: cupping.jpg
+alt: image-alt
+project-date: octobre 2022
+client: Rudos
+category: Offre
+description: Contraste gustatif entre "Melting cup Bio" de Mokxa et "La Colina (Antigua Guatemala)" du café Chulo
+
+---

@@ -9,25 +9,10 @@ quote: " \"Si le café est bon, tout est bon.\""
 quoteAuth: "FRANCIS BEATTY THURBER"
 meta_author: HASLAM Malcolm
 contact_msg: "Have any questions about anything..."
-about_left: "
-            Calling yourself a FullStack developer is like calling yourself a MD. Ok, you have a general view of medicine and I’m sure you can check my pulse, but are you a surgeon or a dermatologist? What is your speciality?
-            <br />
-            <br />
-            If you read a bit about my professional career, I could tell you that i’m a back-end java developer because I’ve been working on java for the last 10 years. 
-            I would probably be lying because out of those 10 years I've spent 75 percent of the time building a Javascript SDK, translating specs, working on CSS, Mongodb and MySql, building a Markdown documentation engine and coordinating QA.                            
-            "
+about_left: <img src="/img/cap.jpg" alt="">
 about_right: "
-              So... Why do I call myself a FullStack developer?
-              <br />
-              <br />
-              I think most people with experience that call themselves FullStack developers are like me. 
-              They are more slanted to one side or the other but they don’t want to be pent-up. 
-              <br />
-              <br />
-              The truth is that I'm a product-centered software developer who obtains fulfilment form building thing on my computer. 
-              <br />
-              <br />
-              So the best job title I can find is FullStack developer. Basically, I want to build a great product I can be proud of in a great company to work in.
+              Rudos est un camion ambulant, au sein de la vallée du Grésivaudan, qui propose du café d’exception, des boissons chaudes et froides, ainsi que des gourmandises associées, de provenances au maximum locales et traçables.
+
             "
 
 # Google webmaster tools
