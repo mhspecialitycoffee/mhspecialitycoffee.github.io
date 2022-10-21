@@ -873,9 +873,9 @@ img.background  {
 .container{
     margin-right: auto;
     margin-left: auto;
-    padding-left: 50px;
+    padding-left: 20px;
     /* background: yellow; */
-    padding-right: 50px;
+    padding-right: 20px;
     width: 100%!important;
 }  
   
@@ -889,18 +889,29 @@ img.background  {
     padding-left: 50px;
     padding-right: 50px;
 }
+@media (min-width: 1200px){
+    .col-lg-offset-2 {
+      margin-left: 10%;
+    }
+}
+
+@media (min-width: 1200px){
+   .col-lg-4 {
+        width: 40%;
+    } 
+}
 
 
 .col-lg-4 p,.col-lg-8 p {
     text-align: justify;
     font-size: 50px;
-    font-size: 2.5vw;
+    font-size: 4.5vw;
 }
 
 @media(min-width:1200px) {
     .col-lg-4 p,.col-lg-8 p {
         font-size: 30px;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
 }
 #intro-container, #background-container {
