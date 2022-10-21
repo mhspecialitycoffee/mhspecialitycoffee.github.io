@@ -592,9 +592,10 @@ p{
     
 }
 .btn-outline {
-    margin: 15px 20px 15px;
+    margin: 20px 0px 20px;
+    padding: 18px 20px;
     border: solid 2px #{{ site.color.secondary-dark }};
-    font-size: 20px;
+    font-size: 15px;
     color: #{{ site.color.text }};
     background: 0 0;
     transition: all .3s ease-in-out;
