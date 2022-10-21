@@ -11,8 +11,18 @@ meta_author: HASLAM Malcolm
 contact_msg: "Vous avez des questions sur quoi que ce soit..."
 about_left: <img src="/img/cap.jpg" alt="">
 about_right: "
-              Rudos est un camion ambulant, au sein de la vallée du Grésivaudan, qui propose du café d’exception, des boissons chaudes et froides, ainsi que des gourmandises associées, de provenances au maximum locales et traçables.
-
+              Après des années au service de l'ingénierie informatique, Malcolm a décidé de se lancer dans ce qui était une passion jusqu'à là : le café! 
+              Il suit alors une formation professionnalisante de barista pour affiner ses compétences et le voilà au volant de sa caravane bleue, sous le nom de 
+              <span class='p-text-name'>Rudos</span>. Ceci dit, il reste un détail à régler : le choix des produits et des fournisseurs!
+              <br> 
+Cela fut une évidence que le café utilisé devrait être respectueux des hommes, de l'environnement et s'il put être Bio encore mieux! 
+Il n'y a donc plus qu'à trouver des torréfacteurs locaux labélisés partageant le même engagement. Chose faite : <span class='p-text-name'>Rudos</span> 
+travaillera principalement avec le <a class='text-link' href='https://cafechulo.fr' target='_blank' rel='noopener noreferrer'>Café Chulo</a> (Fontaine) et 
+<a class='text-link' href='https://cafemoxka.com' target='_blank' rel='noopener noreferrer'>Moxka</a> (Lyon).<br> 
+On ajoute à cela, une recherche minutieuse de la meilleure recette des cookies et cakes, et le camion est ouvert!<br>
+<br>
+<a href='rudos.fr'>Rudos</a>
+<span class='p-text-name'>Rudos</span> est alors un camion ambulant qui propose du café de spécialité, des boissons chaudes et froides, ainsi que des gourmandises associées, le tout de provenances au maximum locales et traçables.
             "
 
 # Google webmaster tools
@@ -62,11 +72,7 @@ address:
   - line: Crolles, France
 
 # Credits content
-credits: 'Thank you for all the inpiration (and openSource code) I used on this page. It is now a clean site with a simple minimalistic UX.  
-I till have a lot of ideas to implement so keep refreshing! 
-<br />
-Traduction française à venir.
-'
+credits: 'Merci!'
 
 # Build settings
 markdown: kramdown

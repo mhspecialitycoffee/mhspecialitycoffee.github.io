@@ -11,7 +11,11 @@ body {
 p {
     font-size: 20px;
 }
-
+@media(min-width:768px) {
+    p{
+        font-size: 15px;
+    }
+}
 p.small {
     font-size: 16px;
 }
@@ -58,7 +62,15 @@ hr.star-primary:after {
     font-family: FontAwesome;
     font-size: 3em;
 }
-
+span.p-text-name{
+    font-family: 'western_bang_bangregular';
+    color: #{{ site.color.secondary-dark }};
+    font-weight:100;
+}
+a.text-link{
+    color: inherit;
+    font-weight:700;
+}
 div.homeStarLine {
     display: block;
     margin-bottom:20px;
@@ -77,8 +89,8 @@ div.homeStarLine {
         background-image: url(img/starLine.svg);
         background-repeat: no-repeat; 
     }
-    
 }
+
 
 hr.star-light {
     border-color: #{{ site.color.off-white }};;
@@ -771,7 +783,8 @@ div.main-avatar{
     .eye-container{
         position: absolute;
         top: 166px;
-        left: 427px;
+        left: 50%;
+        transform: translate(-50%, 0px);
         z-index: -1;
     }
     .eye-white{
@@ -874,6 +887,20 @@ img.background  {
     min-height: 1px;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+
+ .col-lg-4 p{
+    text-align: justify;
+    font-size: 50px;
+    font-size: 2.5vw;
+}
+
+@media(min-width:1200px) {
+    .col-lg-4 p {
+        font-size: 30px;
+        font-size: 1.5vw;
+    }
 }
 #intro-container, #background-container {
     position:absolute;
