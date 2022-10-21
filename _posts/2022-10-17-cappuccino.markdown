@@ -7,6 +7,6 @@ alt: image-alt
 project-date: octobre 2022
 client: Rudos
 category: Offre
-description: Uu cappuccino le mardi c'est comme prendre une petite tranche de dimanche matin2!
+description: Un cappuccino le mardi c'est comme prendre une petite dose de dimanche matin !!
 
 ---
