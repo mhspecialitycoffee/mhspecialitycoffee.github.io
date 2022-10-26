@@ -9,6 +9,20 @@ quote: " \"Si le café est bon, tout est bon.\""
 quoteAuth: "FRANCIS BEATTY THURBER"
 meta_author: HASLAM Malcolm
 contact_msg: "Vous avez des questions sur quoi que ce soit..."
+findus_M_date: "FERMÉ"
+findus_M_palce: ""
+findus_T_date: "7h00-12h00"
+findus_T_palce: "<a class='text-link' href='https://goo.gl/maps/LGyp9A68TA8kDYBt9'>(Place de la Louisiane, Meylan)</a>" 
+findus_W_date: "FERMÉ"
+findus_W_palce: ""
+findus_TH_date: "7h00-12h00"
+findus_TH_palce:  "<a class='text-link' href='https://goo.gl/maps/LGyp9A68TA8kDYBt9'>(Place de la Louisiane, Meylan)</a>" 
+findus_F_date: "7h00-12h00"
+findus_F_palce:  "<a class='text-link' href='https://goo.gl/maps/LGyp9A68TA8kDYBt9'>(Place de la Louisiane, Meylan)</a>" 
+findus_S_date: "FERMÉ"
+findus_S_palce: ""
+findus_SU_date: "FERMÉ"
+findus_SU_palce: ""
 about_left: <img src="/img/camion.jpg" alt="">
 about_right: "
               &emsp;&emsp;&emsp;Après des années au service de l'ingénierie informatique, Malcolm a décidé de se lancer dans ce qui était une passion jusqu'à là : le café! 
@@ -51,27 +65,27 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
+  copyright: MH Speciality Coffee
+  location: Siège 
+  social: Autour du Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/malcolm-haslam-4017a82a/
-  - title: github
-    url: https://github.com/mhaslam
-  - title: twitter
-    url: https://twitter.com/MalcolmHaslam
+  - title: facebook
+    url: https://www.facebook.com/CafeRudos
+  - title: instagram
+    url: https://www.instagram.com/caferudos/
+  - title: whatsapp
+    url:  https://wa.me/33760509032
 
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Crolles, France
+  - line: Crolles, France 
 
 # Credits content
-credits: 'Merci!'
+credits: 'Merci à tous les clients et prestataires qui assistent Rudos dans sa recherche de la tasse idéale'
 
 # Build settings
 markdown: kramdown

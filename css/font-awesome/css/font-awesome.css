@@ -558,6 +558,9 @@
   content: "\f081";
 }
 .fa-facebook-square:before {
+  content: "\f232";
+}
+.fa-whatsapp-square:before {
   content: "\f082";
 }
 .fa-camera-retro:before {
@@ -629,6 +632,8 @@
 }
 .fa-facebook:before {
   content: "\f09a";
+}.fa-whatsapp:before {
+  content: "\f232";
 }
 .fa-github:before {
   content: "\f09b";

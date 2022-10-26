@@ -41,7 +41,8 @@ h6 {
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-dark {
     margin: 30px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -53,7 +54,8 @@ hr.star-primary {
 }
 
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-dark:after  {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -91,11 +93,26 @@ div.homeStarLine {
     }
 }
 
+hr.star-dark {
+    border-color: #{{ site.color.off-white }};;
+}
+hr.star-dark:after {
+    color: #{{ site.color.off-white }};;
+    background-color: #{{ site.color.text }};
+}
+/*
 
+hr.star-dark {
+    border-color: #e74c3c;
+}
+hr.star-dark:after {
+    color:#fdfdfc;
+    background-color: #194e6d;
+}
+*/
 hr.star-light {
     border-color: #{{ site.color.off-white }};;
 }
-
 hr.star-light:after {
     color: #{{ site.color.off-white }};;
     background-color: #{{ site.color.primary }};
@@ -104,7 +121,6 @@ hr.star-light:after {
 hr.star-primary {
     border-color: #{{ site.color.secondary }};
 }
-
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #{{ site.color.off-white }};;
@@ -245,6 +261,11 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+section.contact {
+    color: #{{ site.color.off-white }};;
+    background: #{{ site.color.text }};
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -301,7 +322,22 @@ section.success {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
+
 }
+
+#findus {
+    background:#fff;
+}
+#findus h3{
+    color:#dc612c;
+}
+
+#gmap_canvas{
+    width:100%;
+    height: 400px;
+}
+
+
 
 #portfolio * {
     z-index: 2;
@@ -567,6 +603,14 @@ p{
 }
 
 ======================*/
+#schedule-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#schedule-table td{
+    padding-right:10px ;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
@@ -584,6 +628,14 @@ h1, h2, h3, h4, h5, h6 {
     color:  #{{ site.color.secondary-dark}};
     text-shadow: #{{ site.color.text}} 2px 2px 10px;
 }
+section.contact p, section.contact .btn-outline{
+    color: #{{ site.color.off-white }};    
+}
+footer .btn-outline{
+    padding: inherit;    
+}
+
+
 
 p{
     color: #{{ site.color.text }};
@@ -610,7 +662,13 @@ section.success {
     color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
 }
-
+hr.star-dark {
+    border-color: #{{ site.color.off-white }};;
+}
+hr.star-dark:after {
+    color: #{{ site.color.off-white }};;
+    background-color: #{{ site.color.text }};
+}
 hr.star-light {
     border-color: #{{ site.color.text }};
 }
@@ -655,7 +713,7 @@ header {
     text-transform: none;
     text-shadow: #{{ site.color.secondary-dark }} 2px 2px 10px;
 }
-hr.star-light,  hr.star-primary{
+hr.star-light,  hr.star-primary, hr.star-dark{
     border-color:#{{ site.color.secondary-dark }};
 }
 
@@ -940,6 +998,17 @@ img.background  {
 ======================*/
 g.xAxisprogSkills {
     display: none;
+}
+
+.mapouter{
+
+  /*  height:726px;
+    width:545px;*/
+}
+.gmap_canvas{
+
+    /*height:726px;*/
+    /*width:545px;*/
 }
 
 /*END MALCOLM*/
