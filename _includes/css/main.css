@@ -256,10 +256,10 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+/*section.success {
     color: #{{ site.color.off-white }};;
     background: #{{ site.color.primary }};
-}
+}*/
 
 section.contact {
     color: #{{ site.color.off-white }};;
@@ -336,10 +336,9 @@ section.contact {
 
 }
 
-#findus {
-    background:#fff;
-}
+
 #findus h3{
+    text-align: center;
     color:#dc612c;
 }
 
@@ -595,7 +594,6 @@ footer .footer-below {
 
 
 
-
 /*MALCOLM
 ======================
 ======================
@@ -673,6 +671,7 @@ section.success {
     color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
 }
+
 hr.star-dark {
     border-color: #{{ site.color.off-white }};;
 }
@@ -723,6 +722,9 @@ header {
     font-family: western_bang_bangregular;
     text-transform: none;
     text-shadow: #{{ site.color.secondary-dark }} 2px 2px 10px;
+    /*background:linear-gradient(to right,#{{ site.color.text }},#{{ site.color.secondary-dark }});
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;*/
 }
 hr.star-light,  hr.star-primary, hr.star-dark{
     border-color:#{{ site.color.secondary-dark }};

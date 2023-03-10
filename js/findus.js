@@ -1,7 +1,9 @@
 setOpenImage();
 function setOpenImage(){
-    !isOpen();
-    //if(!isOpen())document.getElementById("findusImg").src="/img/cafe-closed.jpg";
+    var findusSubtitleLeft=document.getElementById("findusSubtitle-left");
+    if(!findusSubtitleLeft)return;
+    if(isOpen())findusSubtitleLeft.innerHTML="On est OUVERT!";
+    else findusSubtitleLeft.innerHTML="Actualement FERMÉ :( ";
 };
 function isOpen(){
     var openHours = getOpenHours(new Date().getDay());
@@ -20,7 +22,8 @@ function getOpenHours(day){
     return timeEle[0].getInnerHTML().split("<")[0]
 }
 function setdateColor(dayEle,timeEl){
-    var element = document.getElementById("scheduleTitle");
+    var element = document.getElementById("findusSubtitle-right");
+    if(!element)return;
     var color = getComputedStyle(element).color;
     dayEle[0].style.color = color;
     timeEl[0].style.color = color;

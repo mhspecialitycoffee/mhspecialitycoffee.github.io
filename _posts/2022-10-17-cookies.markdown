@@ -7,6 +7,6 @@ alt: image-alt
 project-date: octobre 2022
 client: Rudos
 category: Offre
-description: quoi de meilleur pour accompagner un bon café brésilien ou un thé bio, que des cookies  aux pépites de chocolat tout juste sortis du four!
+description: Quoi de meilleur pour accompagner un bon café brésilien ou un thé bio, que des cookies  aux pépites de chocolat tout juste sortis du four!
 
 ---
