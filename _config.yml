@@ -1,24 +1,24 @@
 # Site settings
-title: RUDOS
+title: RUDOS Coffee truck
 email: caferudos@gmail.com
-url: https://example.github.io
-description: "Café d'exeption Meylan"
-keywords: "Café"
+url: https://www.rudos.fr
+description: "Café Meylan"
+keywords: "Café, coffeetruck, foodtruck, coffee shop, specialty coffee"
 hello_msg: "Café, thé et gourmandises"
 quote: " \"Si le café est bon, tout est bon.\""
 quoteAuth: "FRANCIS BEATTY THURBER"
 meta_author: HASLAM Malcolm
 contact_msg: "Vous voulez privatiser Rudos (petit-déjeuners d'entreprise, brunchs, évènements privés ou professionnels, etc.) ? </br>Vous avez une question, une suggestion ou une plainte? Ou vous voulez simplement me contacter?</br></br>Envoyez-moi un message ou whats app! "
-findus_M_date: "FERMÉ"
-findus_M_palce: ""
+findus_M_date: "7h00-12h00"
+findus_M_palce: "<a class='text-link' href='https://goo.gl/maps/UudeXbsZgQSXyx147'>(Gare de Brignoud, Villard-Bonnot)</a>"
 findus_T_date: "7h00-12h00"
 findus_T_palce: "<a class='text-link' href='https://goo.gl/maps/LGyp9A68TA8kDYBt9'>(Place de la Louisiane, Meylan)</a>" 
-findus_W_date: "FERMÉ"
-findus_W_palce: ""
+findus_W_date: "7h00-12h00"
+findus_W_palce:  "<a class='text-link' href='https://goo.gl/maps/UudeXbsZgQSXyx147'>(Gare de Brignoud, Villard-Bonnot)</a>"
 findus_TH_date: "7h00-12h00"
-findus_TH_palce:  "<a class='text-link' href='https://goo.gl/maps/LGyp9A68TA8kDYBt9'>(Place de la Louisiane, Meylan)</a>" 
+findus_TH_palce:   "<a class='text-link' href='https://goo.gl/maps/UudeXbsZgQSXyx147'>(Gare de Brignoud, Villard-Bonnot)</a>"
 findus_F_date: "7h00-12h00"
-findus_F_palce:  "<a class='text-link' href='https://goo.gl/maps/LGyp9A68TA8kDYBt9'>(Place de la Louisiane, Meylan)</a>" 
+findus_F_palce:   "<a class='text-link' href='https://goo.gl/maps/UudeXbsZgQSXyx147'>(Gare de Brignoud, Villard-Bonnot)</a>"
 findus_S_date: "FERMÉ"
 findus_S_palce: ""
 findus_SU_date: "FERMÉ"
